@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Encripatator 3mil</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="images/logo.png" alt="" />
+        <h1>Encriptator 3000</h1>
+      </header>
+
+      <main class="grid">
+
+
+        <section class="seccion1">
+
+          <div class="caja">
+            <p>Las mayúsculas que coloque se convertirán a minúscula</p>
+            <input  type="text" id="txt" placeholder="Ingrese el texto aqui" />
+          </div>
+
+          
+
+          <div class="caja">
+          <button
+              type="button"
+              class="btn"
+              id="btn-1"
+              onclick="Encriptar()"
+            >
+              Encriptar
+            </button>
+
+            <button
+              type="button"
+              class="btn"
+              id="btn-2"
+              onclick="Desencriptar()"
+            >
+              Desencriptar
+            </button>
+          </div>
+
+        </section>
+
+        <section class="seccion2">
+          <div class="caja">
+            <div class="cajaArea">
+              <textarea   id="area" ></textarea>
+            </div>
+            <div class="cajaImg">
+              <img  id="img-area" src="images/area.png" alt="" />
+            </div>       
+          </div>
+
+          <div class="caja">
+            <button
+            type="button"
+            id="btn-3"
+            onclick="Copiar()"
+          >
+            Copiar
+          </button>
+          </div>
+          
+          </section>
+
+      </main>
+
+      <footer>
+        <center>
+          <img src="images/lol.jpg" alt="" width="100px">
+        </center>
+        <p class="copyright">&copy Copyright José Jaén - 2022</p>
+      </footer>
+    </div>
+  </body>
+</html>

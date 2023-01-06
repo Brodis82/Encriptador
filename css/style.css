@@ -1,0 +1,197 @@
+body{
+    background-image: radial-gradient(#f53100 2px, transparent 2px);
+    background-size: 22px 22px;
+    background-color: #000000;
+}
+
+.wrapper{
+    width: 80%;
+    height: 900px;
+    box-shadow: #c5a9a9;
+    -webkit-box-shadow: 3px 3px 7px #777;
+    -moz-box-shadow: 3px 3px 7px #777;
+    min-height: calc(100% - 4rem);
+    margin: 0 auto;
+    background-color: #f53100;
+    border:white solid 1px;
+    position: relative;
+}
+
+header{
+    background-size: 32px 32px;
+    background-color: #f53100 transparent;
+    color:white;
+    border-bottom: #000000 solid;
+}
+
+header h1{
+    margin-left: 5%;
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+header img{
+    margin-left: 5%;
+    display: inline-block;
+    margin-top: 3%;
+    width: 30px;
+    height: 30px;
+}
+
+main{
+    background-color: rgb(240, 231, 224);
+    width: 100%;
+    height: 690px;
+}
+
+
+button:hover{
+    background-color: rgb(222, 145, 44);
+    color:white;
+    cursor:pointer;
+}
+
+
+.caja{
+    width: 90%;
+    height: 300px;
+    /* border: 4px solid black;
+    background-color: lightgray; */
+    margin: 2% 0 0 3%; 
+}
+
+.seccion1{
+    margin-left: 4%;
+}
+
+.seccion2{
+    margin-left: 12%;
+}
+
+section{
+    display:inline-block;
+    /* border: 4px solid black;
+    background-color: lightgray; */
+    width: 40%;
+    height: 98%;
+    vertical-align: top;
+}
+
+.caja p{
+   font-size: 18px;
+}
+
+.caja input{
+    border: none;
+    width: 99%;
+    height: 99%;
+    margin-top: 5%;
+    text-align: start;
+}
+
+.caja input,textarea{
+    font-size: 20px;
+    border: #000000 solid;    
+    border-radius: 4px
+}
+
+.cajaArea,.cajaImg{
+    position: relative;
+}
+
+.cajaImg{
+    top: -100%;
+    left: 35%;
+}
+
+.cajaArea textarea{
+    margin-top: 13%;
+    width: 99%;
+    height: 300px;
+}
+
+.cajaImg img{
+    width: 30%;
+}
+
+#btn-2{
+    float: right;
+}
+
+.caja4{
+    text-align: center;
+    margin-top: 30%;
+
+}
+
+#btn-3{
+    background-color: black;
+    color: white;
+    border: #f53100 solid;
+    display: inline-block;
+    width: 40%;
+    height: 30%;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 40%;
+    margin-bottom: 80px;
+}
+
+#btn-3:hover{
+    background-color: rgb(222, 145, 44);
+    color:white;
+    cursor:pointer;
+}
+
+.btn{
+    margin-top: 25%;
+    background-color: black;
+    color: white;
+    border: #f53100 solid;
+    display: inline-block;
+    width: 40%;
+    height: 30%;
+    font-size: 12px;
+}
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    padding: 30px;
+    color:rgb(255, 255, 255);
+    border-top: #000000 solid;
+
+}
+
+@media screen and (max-width: 402px) {
+    .cajaImg img{
+        width: 60%;
+        margin-top: 50%;
+        margin-left: -10%;
+
+    }
+    #btn-1{
+        width: 70%;
+        height: 10%;
+        margin-left: 20%;
+    }
+    #btn-2{
+        width: 70%;
+        height: 10%;
+        margin-right: 10px;
+    }
+    #btn-3{
+        width: 60%;
+        height: 10%;
+    }
+    main{
+        height: 450px;
+    }
+    .wrapper{
+        height: 660px;
+    }
+}
