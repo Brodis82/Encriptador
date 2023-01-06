@@ -187,6 +187,7 @@ footer{
     #btn-3{
         width: 60%;
         height: 10%;
+        font-size: 15px;
     }
     main{
         height: 450px;
@@ -194,4 +195,14 @@ footer{
     .wrapper{
         height: 660px;
     }
+    .caja p{
+        font-size: 7px;
+    }
+    footer img{
+        margin-top: -20px;
+    }
+    footer p{
+        margin-top: -10px;
+    }
 }
+
